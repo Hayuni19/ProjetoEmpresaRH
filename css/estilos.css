@@ -56,12 +56,13 @@ footer{
 }
 
 .intro{
-    background: url(../imagens/logo.png) center center fixed;
+    background: url(../imagens/pessoas.jpg) center center fixed;
     background-size: cover;
     padding: 40px;
     margin-top: 40px;
     left: 0;
     right: 0;
+    /*height: 150px;*/
 }
 
 /*estilos para o rodapé*/

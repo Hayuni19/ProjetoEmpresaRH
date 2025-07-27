@@ -1,8 +1,41 @@
+.menu li.icon {
+    display: none;
+}
+
 @media screen and (max-width: 760px) {
-    .menu li{
+
+    /* .menu li{
         float: none;
     }
-    .menu li a{
+    .menu li a {
         text-align: center;
+    } */
+    .menu li:not(:first-child) {
+        display: none;
+    }
+
+    .menu li.icon {
+        float: right;
+        display: block;
+    }
+
+    .menu.responsive {
+        position: relative;
+    }
+
+    .menu.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .menu.responsive li {
+        float: none;
+        display: inline;
+    }
+
+    .menu.responsive li a {
+        display: block;
+        text-align: left;
     }
 }

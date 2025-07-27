@@ -18,6 +18,10 @@
                 <li><a href="#">Produtos</a></li>
                 <li><a href="#">Localização</a></li>
                 <li><a href="../paginas/registro.html">Trabalhe Conosco</a></li>
+                <li class="icon">
+                    <a href="javascript:void(0);" onclick="mostrarMenu()">
+                        &#9776;</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -27,7 +31,7 @@
             <article>
                 <header>
                     <div>
-                        <a href="../paginas/registro.html" class="registro">Candidate-se<br/>
+                        <a href="../paginas/registro.html" class="registro">Candidate-se<br />
                             <span class="free">&#183; Hoje &#183;</span>
                         </a>
                     </div>
@@ -57,6 +61,16 @@
         <p>Avenida Paulista, 1009 - Bela Vista <br /> São Paulo - CEP 01311-100</p>
         <p>Copyright 2020 - Todos os direitos reservados</p>
     </footer>
+    <script type="text/javascript">
+        function mostrarMenu() {
+            let elemento = document.getElementById("menuTopo");
+            if (elemento.className === "menu") {
+                elemento.className += " responsive";
+            } else {
+                elemento.className = "menu";
+            }
+        }
+    </script>
 </body>
 
 </html>

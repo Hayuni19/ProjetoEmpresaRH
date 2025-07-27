@@ -1,0 +1,8 @@
+@media screen and (max-width: 760px) {
+    .menu li{
+        float: none;
+    }
+    .menu li a{
+        text-align: center;
+    }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <div>
+        <h1>Registro de Candidatos</h1>
+    </div>
+    <form>
+        <!--Nome do Canditato-->
+        <div>
+            <label for="nome">Nome</label>
+            <div>
+                <input type="text" id="nome" name="nome" required="required" autofocus="autofocus">
+            </div>
+        </div>
+
+        <!--Data de Nascimento-->
+        <div>
+            <label for="data">Data de Nascimento</label>
+        </div>
+        <div>
+            <input type="date" id="data" name="data" required="required">
+        </div>
+
+        <!--Sexo-->
+        <div>
+            <label for="sexo">Sexo</label>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Sexo:</legend>
+                <input type="radio" id="masculino" name="sexo" value="masculino">Masculino <br/>
+                <input type="radio" id="feminino" name="sexo" value="feminino">Feminimo <br/>
+            </fieldset>
+        </div>
+
+        <!--Telefone-->
+        <div>
+            <label for="telefone">Telefone</label>
+            <div>
+                <input type="tel" name="telefone" id="telefone" required="required">
+            </div>
+        </div>
+
+        <!--Email-->
+        <div>
+            <label for="email">Email</label>
+            <div>
+                <input type="email" id="email" name="email" required="required">
+            </div>
+        </div>
+
+        <!--Lista de Vagas-->
+        <div>
+            <label for="vaga">Vaga desejada:</label>
+            <div>
+                <select name="vaga" id="vaga">
+                    <option value="1">Administrador de Banco de Dados</option>
+                    <option value="2">Analista de Sistemas</option>
+                    <option value="3">Web Designer</option>
+                    <option value="4">Programador Java</option>
+                </select>
+            </div>
+        </div>
+
+        <!--Botão de Comandos-->
+        <div>
+            <input type="button" value="Incluir">
+        </div>
+    </form>
+</body>
+</html>

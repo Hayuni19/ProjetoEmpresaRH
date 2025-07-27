@@ -1,0 +1,56 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(235, 235, 216);
+}
+
+.container{
+    margin: 80px 50px 50px 50px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #003264;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color: #DFDFDF;
+    color: #003264;
+}
+
+/* estilos para o rodapé */
+footer{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background-color: #828282;
+}

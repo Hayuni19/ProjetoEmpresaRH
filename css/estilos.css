@@ -66,13 +66,17 @@ footer{
 }
 
 /*estilos para o rodapé*/
-.footer{
+.footer {
     background: url(../imagens/escritorio.jpg) center center fixed;
-    background: cover;
+    background-size: cover;
     color: white;
-    padding: 25px;
+    padding: 10px;
+    font-size: 12px;
     text-align: center;
+    margin-top: 30px; /* garante espaço acima do rodapé */
+    position: relative; /* impede que ele fique fixo */
 }
+
 
 .borda{
     box-shadow: 5px 5px 10px #000;

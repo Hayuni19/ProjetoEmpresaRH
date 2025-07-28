@@ -1,0 +1,22 @@
+.body-content {
+    clear: both;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.center-image {
+    text-align: center;
+}
+
+.margin-image {
+    margin: 10px;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #7F7F7F;
+    color: white;
+}

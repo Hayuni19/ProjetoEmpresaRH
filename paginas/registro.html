@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
+    <title>Registro de Candidatos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/estilos.css">
 
 </head>
@@ -16,26 +17,27 @@
     <form>
         <div class="container borda">
             <!--Nome do Canditato-->
-            <div>
-                <label for="nome">Nome</label>
-                <div>
-                    <input type="text" id="nome" name="nome" required="required" autofocus="autofocus">
+            <div class="form-group row">
+                <label for="nome" class="col-sm-2 col-form-label">Nome</label>
+                <div class="col-sm-10">
+                    <input type="text" id="nome" name="nome" required="required" autofocus="autofocus"
+                        class="form-control">
                 </div>
             </div>
 
             <!--Data de Nascimento-->
-            <div>
-                <label for="data">Data de Nascimento</label>
+            <div class="form-group row">
+                <label for="data" class="col-sm-2 col-form-label">Data de Nascimento</label>
             </div>
-            <div>
-                <input type="date" id="data" name="data" required="required">
+            <div class="col-sm-5">
+                <input type="date" id="data" name="data" required="required" class="form-control">
             </div>
 
             <!--Sexo-->
-            <div>
-                <label for="sexo">Sexo</label>
+            <div class="form-group row">
+                <label for="sexo" class="col-sm-2 col-form-label">Sexo</label>
             </div>
-            <div>
+            <div class="col-sm-10">
                 <fieldset>
                     <legend>Sexo:</legend>
                     <input type="radio" id="masculino" name="sexo" value="masculino">Masculino <br />
@@ -44,40 +46,42 @@
             </div>
 
             <!--Telefone-->
-            <div>
-                <label for="telefone">Telefone</label>
-                <div>
-                    <input type="tel" name="telefone" id="telefone" required="required">
+            <div class="form-group row">
+                <label for="telefone" class="col-sm-2 col-form-label">Telefone</label>
+                <div class="col-sm-5">
+                    <input type="tel" name="telefone" id="telefone" required="required" class="form-control">
                 </div>
             </div>
 
             <!--Email-->
-            <div>
-                <label for="email">Email</label>
-                <div>
-                    <input type="email" id="email" name="email" required="required">
+            <div class="form-group row">
+                <label for="email" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" id="email" name="email" required="required" class="form-control">
                 </div>
             </div>
 
             <!--Lista de Vagas-->
-            <div>
-                <label>Tipo de vaga:</label>
-                <div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Tipo de vaga:</label>
+                <div lass="col-sm-5">
                     <input type="radio" id="desenv" name="tipo" value="desenv" checked="checked">Desenvolvimento
                     <input type="radio" id="negocio" name="tipo" value="negocio">Negócios
                 </div>
             </div>
-            <div>
-                <label for="vaga">Vaga desejada:</label>
-                <div>
-                    <select name="vaga" id="vaga">
+            <div class="form-group row">
+                <label for="vaga" class="col-sm-2 col-form-label">Vaga desejada:</label>
+                <div class="col-sm-5">
+                    <select name="vaga" id="vaga" class="form-control">
                     </select>
                 </div>
             </div>
 
             <!--Botão de Comandos-->
-            <div>
-                <input type="button" value="Incluir" id="incluirButton">
+            <div class="form-group row">
+                <div class="col-sm-5 col-sm-offset-2">
+                    <input type="button" value="Incluir" id="incluirButton" class="btn btn-primary">
+                </div>
             </div>
         </div>
     </form>

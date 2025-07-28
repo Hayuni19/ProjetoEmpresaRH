@@ -16,7 +16,14 @@
     </div>
     <form>
         <div class="container borda">
-            <canvas id="relogio"></canvas>
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <canvas id="relogio"></canvas>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div id="mensagemdb"></div>
+                </div>
+            </div>
             <!--Nome do Canditato-->
             <div class="form-group row">
                 <label for="nome" class="col-sm-2 col-form-label">Nome</label>
@@ -82,6 +89,7 @@
             <div class="form-group row">
                 <div class="col-sm-5 col-sm-offset-2">
                     <input type="button" value="Incluir" id="incluirButton" class="btn btn-primary">
+                    <input type="button" value="Enviar para o IndexedDb" id="incluirDbButton" class="btn btn-primary">
                 </div>
             </div>
         </div>
@@ -91,6 +99,7 @@
     <script src="../scripts/listaVagas.js"></script>
     <script src="../scripts/cadastro.js"></script>
     <script src="../scripts/relogio.js"></script>
+    <script src="../scripts/database.js"></script>
 </body>
 
 </html>

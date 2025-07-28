@@ -1,34 +1,46 @@
 {
-    "vagas": [
-        {
-            "id": 1,
-            "titulo": "Programador Java Pleno",
-            "tipo": "1"
-        },
-        {
-            "id": 2,
-            "titulo": "Analista Comercial",
-            "tipo": "2"
-        },
-        {
-            "id": 3,
-            "titulo": "Instrutor Excel Avançado",
-            "tipo": "1"
-        },
-        {
-            "id": 4,
-            "titulo": "Gerente de Projetos para .NET",
-            "tipo": "2"
-        },
-        {
-            "id": 5,
-            "titulo": "Consultor de Desenvolvimento Agil",
-            "tipo": "2"
-        },
-        {
-            "id": 6,
-            "titulo": "Programador VB.Net",
-            "tipo": "1"
-        }
-    ]
+  "vagas": [
+    {
+      "id": "1",
+      "titulo": "Programador Java Pleno",
+      "tipo": "1"
+    },
+    {
+      "id": "2",
+      "titulo": "Analista Comercial",
+      "tipo": "2"
+    },
+    {
+      "id": "3",
+      "titulo": "Instrutor Excel Avançado",
+      "tipo": "1"
+    },
+    {
+      "id": "4",
+      "titulo": "Gerente de Projetos para .NET",
+      "tipo": "2"
+    },
+    {
+      "id": "5",
+      "titulo": "Consultor de Desenvolvimento Agil",
+      "tipo": "2"
+    },
+    {
+      "id": "6",
+      "titulo": "Programador VB.Net",
+      "tipo": "1"
+    }
+  ],
+  "candidatos": [
+    {
+      "id": "4500",
+      "nome": "INGRID HAYUNI CAMPOS DE MORAES",
+      "dataNascimento": "2002-07-19",
+      "sexo": "feminino",
+      "telefone": "11944551509",
+      "email": "ingrid.searom@hotmail.com",
+      "tipo": "desenv",
+      "vaga": "1"
+    }
+  ]
 }

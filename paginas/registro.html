@@ -61,13 +61,16 @@
 
             <!--Lista de Vagas-->
             <div>
+                <label>Tipo de vaga:</label>
+                <div>
+                    <input type="radio" id="desenv" name="tipo" value="desenv" checked="checked">Desenvolvimento
+                    <input type="radio" id="negocio" name="tipo" value="negocio">Negócios
+                </div>
+            </div>
+            <div>
                 <label for="vaga">Vaga desejada:</label>
                 <div>
                     <select name="vaga" id="vaga">
-                        <option value="1">Administrador de Banco de Dados</option>
-                        <option value="2">Analista de Sistemas</option>
-                        <option value="3">Web Designer</option>
-                        <option value="4">Programador Java</option>
                     </select>
                 </div>
             </div>
@@ -79,5 +82,7 @@
         </div>
     </form>
     <script src="../scripts/validacao_registro.js"></script>
+    <script src="../scripts/listaVagas.js"></script>
 </body>
+
 </html>
